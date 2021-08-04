@@ -1,1 +1,8 @@
-# 2021-2_terca_manha
+# 2021-2 - Terça - Manhã
+Disciplina: 
+
+Prof. Thiago Graziani Traue (thiago.traue@uni9...)
+
+****
+
+
