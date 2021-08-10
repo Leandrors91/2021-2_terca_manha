@@ -15,3 +15,18 @@
  - Lone, U., [Object-Oriented Analysis, Design and Programming with UML](https://learning.oreilly.com/videos/object-oriented-analysis-design/9781801078405/), em vídeo, 2020 (disponível no catálogo da O'Reilly)
 
 Não deixe de explorar os demais títulos semelhantes nos catálogos da Pearson e O'Reilly.
+
+
+## Critérios de avaliação
+
+Durante o semestre o professor fornecerá de 4 a 6 atividades de múltipla escolha, via forms, através deste git. As atividades possuem um prazo maior ou igual a 14 dias.
+
+A média do professor é calcula simplesmente pela média das atividades e eventuais pontuações extras.
+
+A média final da disciplina é calculada considerando-se a **Avaliação Integrada** a ser marcada pela coordenação. Normalmente a coordenação utiliza 40% da avaliação integrada + 60% da média do professor para se calcular a média final de cada disciplina, ou seja:
+
+```
+MÉDIA FINAL = (0,4 * AVALIAÇÃO INTEGRADA) + (0,6 * MED. DO PROF)
+```
+
+Este professor não considera a presença como critério de avaliação.
