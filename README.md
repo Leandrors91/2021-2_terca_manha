@@ -13,6 +13,8 @@
  - Pfleeger, S. L, [Engenharia de Software: Teoria e Prática](https://plataforma.bvirtual.com.br/Acervo/Publicacao/476), 2003 (disponível no catálogo da Pearson)
  - Booch, G., Rumbaugh, J., Jacobson, I., [Unified Modeling Language User Guide](https://learning.oreilly.com/library/view/unified-modeling-language/0321267974/), 2005 (disponível no catálogo da O'Reilly)
  - Lone, U., [Object-Oriented Analysis, Design and Programming with UML](https://learning.oreilly.com/videos/object-oriented-analysis-design/9781801078405/), em vídeo, 2020 (disponível no catálogo da O'Reilly)
+ - **EXTRA** Eriksson, H-S., Penker, M., Lyons., B., Fado, D., UML 2 Toolkit, 2004
+
 
 Não deixe de explorar os demais títulos semelhantes nos catálogos da Pearson e O'Reilly.
 
