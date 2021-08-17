@@ -16,9 +16,54 @@ Essa sessão apresenta como preparar o ambiente de desenvolvimento. Siga cuidado
 
 ### 1º passo - Flutter SDK
 
+Acessar o site [oficial do Flutter](https://flutter.dev/docs/get-started/install), e selecionar seu Sistema Operacional.
+
+Baixar o arquivo ZIP e extrair normalmente. Colocar o conteúdo em um local seguro (que você não apagará acidentalmente), e **sem espaços** e/ou **caracteres especiais**.
+
+
+### 2º passo - Acertar a variável de ambiente (Windows)
+
+Para isso você deve, na barra de pesquisa, digitar "Variáveis de ambiente". Ao abrir as configurações das variáveis, adicionar a pasta completa do Flutter/bin na entrada "PATH" (do usuário).
+
+
+### 3º passo - Instalação do Android Studio
+
+Acessar o site oficial do Android Studio, [neste link](https://developer.android.com/studio), baixar e instalar normalmente.
+
+Após a instalação, abra o Android Studio e siga normalmente o assistente de configuração do Android SDK.
+
+
+### 4 passo - Android Studio com Flutter
+
+Rode no terminal o comando abaixo:
+
+```
+flutter doctor
+```
+
+**Se o doctor não reconhecer** o Androis Studio, rode o comando abaixo:
+
+```
+flutter config --android-studio-dir "<caminho de instalação do seu AS"
+```
+
+Reinicie o AS e o terminal e execute novamente o "doctor".
+
+Feito isso, rode o aceite das licenças, assim:
+
+```
+flutter doctor --android-licenses
+```
+
+Neste ponto o doctor deverá retornar todos os itens como "ok".
+
 
 
 ### Erros comuns da preparação do ambiente
+
+
+Verificaremos isso na aula vidoura.
+
 
 
 ## Ementa básica
