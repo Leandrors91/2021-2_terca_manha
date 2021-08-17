@@ -5,6 +5,21 @@
 
 ***
 
+## Link das atividades
+ 
+Essa disciplina ainda não demanda atividades
+
+
+## Preparação do ambiente de desenvolvimento
+
+Essa sessão apresenta como preparar o ambiente de desenvolvimento. Siga cuidadosamente os passos abaixo.
+
+### 1º passo - Flutter SDK
+
+
+
+### Erros comuns da preparação do ambiente
+
 
 ## Ementa básica
 
