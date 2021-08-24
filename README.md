@@ -33,7 +33,7 @@ Acessar o site oficial do Android Studio, [neste link](https://developer.android
 Após a instalação, abra o Android Studio e siga normalmente o assistente de configuração do Android SDK.
 
 
-### 4 passo - Android Studio com Flutter
+### 4º passo - Android Studio com Flutter
 
 Rode no terminal o comando abaixo:
 
@@ -62,8 +62,27 @@ Neste ponto o doctor deverá retornar todos os itens como "ok".
 ### Erros comuns da preparação do ambiente
 
 
-Verificaremos isso na aula vidoura.
+ 1 - Erro de "Java No class...."na hora de aceitar s licenças..
 
+Se aparecer este erro: 
+
+```
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+        at com.android.repository.api
+        ...
+```
+
+Abra o Android Studio, clique em "More Actions", e depois em "SDK Manager". Depois abrir a aba "SDK Tools". 
+
+Na lista que aparecer, selecionar "Android SDK Command Line Tools (latest)". Clicar ok e instalar normalmente.
+
+Feito isso, rodar novamente o comando de aceite das licenças:
+
+```
+flutter doctor --android-licenses
+```
+
+Aceitar as licenças
 
 
 ## Ementa básica
