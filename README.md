@@ -121,6 +121,7 @@ Este professor não considera a presença como critério de avaliação.
 
 ## Links extras interessantes
 
+ - [Livro Open de Flutter](https://www.flutterparainiciantes.com.br/) - Dica do Júnior
  - [Como emular um MacOS num ambiente Windows](https://www.youtube.com/watch?v=_qnoT7BvFjs) - Vídeo do YouTube
  - [Projetos descontinuados pelo Google](https://killedbygoogle.com/)
  - [Fundamentos de Lógica de Programação](https://www.ev.org.br/cursos/fundamentos-de-logica-de-programacao) - Fundação Bradesco
