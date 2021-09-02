@@ -1,6 +1,7 @@
 //              é
 class Aluno extends Pessoa {
-  int ra;
+  int? ra; //a "?" indica que a variável pode ser nula (nullable).
+  //Vide: https://stackoverflow.com/questions/67034475/non-nullable-instance-field-must-be-initialized
 
   Aluno(this.ra, String nome, String email, int idade)
       : super(nome, email, idade);
