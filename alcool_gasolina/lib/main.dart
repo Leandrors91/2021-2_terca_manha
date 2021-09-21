@@ -64,7 +64,7 @@ class _HomeState extends State<Home> {
             ),
             Padding(
                 padding: const EdgeInsets.only(top: 20, bottom: 20),
-              child: Container(
+              child: SizedBox(
                 height: 60.0,
                 child: ElevatedButton( //PARAMOS AQUI
                   onPressed: () { },
