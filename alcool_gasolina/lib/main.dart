@@ -22,10 +22,27 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text("Álcool ou Gasosalina?"),
-        centerTitle: true,
-        backgroundColor: Colors.red,
+      centerTitle: true,
+      title: const Text("Álcool ou Gasolina?"),
+      flexibleSpace: Container(
+        decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: <Color>[
+                  Colors.green,
+                  Colors.blue,
+                  Colors.yellow
+                ])
+        ),
       ),
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.refresh), color: Colors.black,)
+        ],
+    ),
+
     );
   }
 }
