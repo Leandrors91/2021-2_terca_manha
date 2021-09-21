@@ -5,10 +5,13 @@
 
 ***
 
+# O prof. Thiago estará afastado dia 28.09, portanto não deixe de realizar a atividade disponível abaixo
+
+
 ## Link das atividades
  
-Essa disciplina ainda não demanda atividades
-
+ - Atividade 1: [LINK DA ATIVIDADE](#) - De 28.09 até 05.10, 8h
+ 
 
 ## Preparação do ambiente de desenvolvimento
 
