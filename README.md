@@ -10,7 +10,14 @@
 
 ## Link das atividades
  
- - Atividade 1: [LINK DA ATIVIDADE](#) - De 28.09 até 05.10, 8h
+ - Atividade 1: [LINK DA ATIVIDADE](https://forms.gle/rcEaJQyirADnnGD78) - De 28.09 até 05.10, 9h
+
+ Após a realização da atividade, leia os artigos abaixo:
+
+ - (Flutter: tudo sobre o queridinho do google)[https://www.zup.com.br/blog/flutter]
+ - [Conhecendo o Flutter](https://medium.com/android-dev-moz/flutter-conhecendo-o-flutter-70d31772afa5)
+ - [O que é Dart](https://www.treinaweb.com.br/blog/o-que-e-dart)
+ 
  
 
 ## Preparação do ambiente de desenvolvimento
