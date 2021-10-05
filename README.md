@@ -5,8 +5,6 @@
 
 ***
 
-# O prof. Thiago estará afastado dia 28.09, portanto não deixe de realizar a atividade disponível abaixo
-
 
 ## Link das atividades
 
@@ -15,12 +13,7 @@ Utilize seu e-mail institucional para acessar as atividades
 
  - Atividade 1: [LINK DA ATIVIDADE](https://forms.gle/rcEaJQyirADnnGD78) - De 28.09 até 05.10, 9h
 
- Após a realização da atividade, leia os artigos abaixo:
 
- - [Flutter: tudo sobre o queridinho do google](https://www.zup.com.br/blog/flutter)
- - [Conhecendo o Flutter](https://medium.com/android-dev-moz/flutter-conhecendo-o-flutter-70d31772afa5)
- - [O que é Dart](https://www.treinaweb.com.br/blog/o-que-e-dart)
- 
  
 
 ## Preparação do ambiente de desenvolvimento
@@ -151,4 +144,8 @@ Este professor não considera a presença como critério de avaliação.
  - [Canal do Fábio Akita](https://www.youtube.com/c/FabioAkita1990/videos)
  - [Technology Radar](https://www.thoughtworks.com/pt/radar)
  - [Game Swift Playgrounds](https://apps.apple.com/br/app/swift-playgrounds/id1496833156?mt=12) - Jogo para aprender Swift (exclusivo para iPad e Macs)
+ - [Flutter: tudo sobre o queridinho do google](https://www.zup.com.br/blog/flutter)
+ - [Conhecendo o Flutter](https://medium.com/android-dev-moz/flutter-conhecendo-o-flutter-70d31772afa5)
+ - [O que é Dart](https://www.treinaweb.com.br/blog/o-que-e-dart)
+ 
 
