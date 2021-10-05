@@ -15,6 +15,28 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+
+  TextEditingController alcoolController = TextEditingController();
+  TextEditingController gasolinaController = TextEditingController();
+  String _resultado = "Informe os valores";
+
+  void _calculaCombustivelIdeal() {
+    double vAlcool = double.parse(alcoolController.text.replaceAll(',', '.'));
+    double vGasolina = double.parse(gasolinaController.text.replaceAll(',', '.'));
+    double proporcao = vAlcool / vGasolina;
+
+    // if(proporcao < 0.7) {
+    //   _resultado = "Abasteça com Álcool";
+    // } else {
+    //   _resultado = "Abasteça com Gasolina";
+    // }
+
+    setState(() {
+      _resultado = (proporcao < 0.7) ? "Abasteça com Álcool" : "Abasteça com Gasoina";
+    });
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +45,8 @@ class _HomeState extends State<Home> {
         title: const Text("Álcool ou Gasolina?"),
         actions: [
           IconButton(
-            onPressed: () {}, icon: const Icon(Icons.refresh),
+            onPressed: () {},
+            icon: const Icon(Icons.refresh),
             color: Colors.black,
           )
         ],
@@ -45,7 +68,9 @@ class _HomeState extends State<Home> {
               color: Colors.blue,
             ),
             TextFormField(
-              keyboardType: TextInputType.number,
+              controller: alcoolController,
+              keyboardType: const TextInputType.numberWithOptions(
+                  decimal: true, signed: false),
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.blue, fontSize: 26.0),
               decoration: const InputDecoration(
@@ -54,7 +79,11 @@ class _HomeState extends State<Home> {
               ),
             ),
             TextFormField(
-              keyboardType: TextInputType.number,
+              controller: gasolinaController,
+              keyboardType: const TextInputType.numberWithOptions(
+                  decimal: true,
+                  signed: false
+              ),
               textAlign: TextAlign.center,
               style: const TextStyle(color: Colors.blue, fontSize: 26.0),
               decoration: const InputDecoration(
@@ -67,9 +96,18 @@ class _HomeState extends State<Home> {
               child: SizedBox(
                 height: 60.0,
                 child: ElevatedButton( //PARAMOS AQUI
-                  onPressed: () { },
+                  onPressed: () {
+                    _calculaCombustivelIdeal();
+                  },
                   child: const Text("Verificar"),
                 )
+              ),
+            ),
+            Text(
+                _resultado,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.lightBlue[900], fontSize: 26
               ),
             )
           ],
