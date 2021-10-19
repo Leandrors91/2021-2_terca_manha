@@ -12,7 +12,7 @@ Utilize seu e-mail institucional para acessar as atividades
 
 
  - Atividade 1: [LINK DA ATIVIDADE](https://forms.gle/rcEaJQyirADnnGD78) - De 28.09 até 05.10, 9h
-
+ - Atividade 2: [LINK DA ATIVIDADE](https://forms.gle/FmZLJHYiLJmLeYV37) - De 19.10 até 09.11, 9h
 
  
 
